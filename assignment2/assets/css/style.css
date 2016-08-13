@@ -103,10 +103,6 @@ hr{
 	overflow: auto;
 }
 
-.container-fluid{
-	padding-left: 0px;
-}
-
 .icons:hover { 
 	-webkit-filter: invert(100%);
 	filter: invert(100%);
@@ -182,6 +178,7 @@ textarea{
 margin-right: 0px;
 }
 
+
 @media screen and (max-width: 640px){
 	.container{
 		width: 100%;
@@ -191,6 +188,8 @@ margin-right: 0px;
 		width: 100%;
 	}
 
+
+
 	.selfie{ 
 	padding: 10px 20px 10px;
 	padding-left: 0px;
@@ -198,9 +197,18 @@ margin-right: 0px;
 	height: auto;
 	}
 
+	.nav li a{
+		float: left;
+		padding: 0px 74px;
+	}
+	.nav{
+		margin: 0px -15px;
+	}
 }
 
-@media screen and (min-width: 641px) and (max-width: 768px){
+
+
+@media screen and (min-width: 640px) and (max-width: 768px){
 	.container{
 		width: 100%;
 	}
@@ -214,7 +222,7 @@ margin-right: 0px;
 
 }
 
-@media screen and (min-width: 769px) and (max-width: 980px){
+@media screen and (min-width: 768px) and (max-width: 980px){
 	.group{
 		width: 100%;
 	}
@@ -230,69 +238,3 @@ margin-right: 0px;
 	}
 
 }
-
-/*@media screen and (min-width: 640px){
-	nav{
-		padding: 31px 0px 31px 20px;
-	}
-
-	.container{
-		width: 650px;
-		margin: 0px auto;
-		float: none;
-	}
-
-	.sidebar{
-		margin: 0px;
-		float: none;
-		width: 610px;
-		margin-bottom: 70px;
-	}
-
-	.content{
-		margin: 20px 0px;
-		float: none;
-	}
-}*/
-
-/*@media screen and (max-width: 640px) {
-	nav{
-		padding: 31px 0px 31px 20px;
-		position: relative;
-	}
-	.name, nav, .group{
-		width: 100%;
-	}
-
-	nav a{
-		padding: 10px 60px;
-	}
-
-	.wrapper, .container{
-		width: 640px;
-	}
-
-	.group{
-		margin-right: 0px;
-	}
-
-	.content, .sidebar{
-		margin: 20px;
-		width: 560px;
-	}
-
-	.sidebar{
-		margin-bottom: 70px;
-	}
-
-	header{
-		position: static;
-	}
-	p{
-		clear: both;
-	}
-
-	.selfie{
-	height: 400px;
-	}
-}*/
